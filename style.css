@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: "poppins" sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(192, 233, 255);
+    background-size: cover;
+    background-position: center;
+}
+
+.phone {
+    width: 420px;
+    height: 600px;
+    background: white;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur (20px);
+    box-shadow: 0 0 10px rgb(0, 0, 0 0.2);
+    color: black;
+    border-radius: 10px;
+    padding: 30px 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.phone .life {
+    position: relative;
+    height: 50px;
+    margin: 30px;
+}
+
+.life input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid gray;
+    outline: none;
+    font-size: 16px;
+}
+
+.life input::placeholder {
+    color: #333;
+    padding-left: 50px;
+}
+
+.life label {
+    color: #333;
+    margin-right: 300px;
+}
+
+.life box-icon {
+    position: absolute;
+    left: 20px;
+    top: 70%;
+    transform: translateY(0%);
+    font-size: 20px;
+    color: white;
+}
+
+.phone .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16.5px;
+    padding: 15px;
+    margin-left: 270px;
+}
+
+.remember-forgot a {
+    color: #333;
+    text-decoration: none;
+}
+
+.phone .btn {
+    width: 100px;
+}
+
